@@ -1,0 +1,73 @@
+[2022-07-05 18:49:45,252] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.ingest scheduled__2022-01-02T06:00:00+00:00 [queued]>
+[2022-07-05 18:49:45,502] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.ingest scheduled__2022-01-02T06:00:00+00:00 [queued]>
+[2022-07-05 18:49:45,519] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 18:49:45,522] {taskinstance.py:1239} INFO - Starting attempt 11 of 11
+[2022-07-05 18:49:45,533] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 18:49:45,771] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): ingest> on 2022-01-02 06:00:00+00:00
+[2022-07-05 18:49:45,850] {standard_task_runner.py:52} INFO - Started process 5653 to run task
+[2022-07-05 18:49:45,890] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'ingest', 'scheduled__2022-01-02T06:00:00+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpv04wy6ma', '--error-file', '/tmp/tmpa8r085yf']
+[2022-07-05 18:49:45,898] {standard_task_runner.py:77} INFO - Job 85: Subtask ingest
+[2022-07-05 18:49:46,348] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.ingest scheduled__2022-01-02T06:00:00+00:00 [running]> on host ec047ba4deb7
+[2022-07-05 18:49:46,613] {warnings.py:99} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-07-05 18:49:46,880] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-02T06:00:00+00:00
+[2022-07-05 18:49:46,895] {logging_mixin.py:109} INFO - URL TEMPLATE
+[2022-07-05 18:49:46,913] {logging_mixin.py:109} INFO - https://nyc-tlc.s3.amazonaws.com/csv_backup/yellow_tripdata_2022-01.csv
+[2022-07-05 18:49:46,916] {logging_mixin.py:109} INFO - TABLE NAME AND CSV
+[2022-07-05 18:49:46,934] {logging_mixin.py:109} INFO - yellow_taxi_2022_01 /opt/***/output_2022-01.csv
+[2022-07-05 18:49:46,960] {logging_mixin.py:109} INFO - created engine
+[2022-07-05 18:49:47,172] {logging_mixin.py:109} INFO - connection established successfully, inserting data...
+[2022-07-05 18:49:47,523] {logging_mixin.py:109} INFO - successfully read csv_file
+[2022-07-05 18:49:52,875] {logging_mixin.py:109} INFO - successfully fetched df_iter
+[2022-07-05 18:49:52,885] {logging_mixin.py:109} INFO - yellow_taxi_2022_01
+[2022-07-05 18:49:52,887] {logging_mixin.py:109} INFO - /opt/***/output_2022-01.csv
+[2022-07-05 18:49:53,637] {logging_mixin.py:109} INFO -    VendorID tpep_pickup_datetime  ... total_amount  congestion_surcharge
+0         1  2022-01-01 00:35:40  ...        21.95                   2.5
+1         1  2022-01-01 00:33:43  ...        13.30                   0.0
+2         2  2022-01-01 00:53:21  ...        10.56                   0.0
+3         2  2022-01-01 00:25:21  ...        11.80                   2.5
+4         2  2022-01-01 00:36:48  ...        30.30                   2.5
+
+[5 rows x 18 columns]
+[2022-07-05 18:49:54,028] {logging_mixin.py:109} INFO - past tpep_pickup_datetime
+[2022-07-05 18:53:33,151] {logging_mixin.py:109} INFO - inserted the first chunk, took 225.957 second
+[2022-07-05 18:56:13,474] {logging_mixin.py:109} INFO - inserted another chunk, took 160.317 second
+[2022-07-05 18:59:02,858] {logging_mixin.py:109} INFO - inserted another chunk, took 169.380 second
+[2022-07-05 19:01:26,819] {logging_mixin.py:109} INFO - inserted another chunk, took 143.958 second
+[2022-07-05 19:03:48,390] {logging_mixin.py:109} INFO - inserted another chunk, took 141.568 second
+[2022-07-05 19:06:17,313] {logging_mixin.py:109} INFO - inserted another chunk, took 148.920 second
+[2022-07-05 19:08:51,638] {logging_mixin.py:109} INFO - inserted another chunk, took 154.323 second
+[2022-07-05 19:11:21,254] {logging_mixin.py:109} INFO - inserted another chunk, took 149.610 second
+[2022-07-05 19:13:54,145] {logging_mixin.py:109} INFO - inserted another chunk, took 152.887 second
+[2022-07-05 19:16:28,908] {logging_mixin.py:109} INFO - inserted another chunk, took 154.761 second
+[2022-07-05 19:19:01,080] {logging_mixin.py:109} INFO - inserted another chunk, took 152.169 second
+[2022-07-05 19:21:55,882] {logging_mixin.py:109} INFO - inserted another chunk, took 174.798 second
+[2022-07-05 19:24:33,030] {logging_mixin.py:109} INFO - inserted another chunk, took 157.142 second
+[2022-07-05 19:27:26,598] {logging_mixin.py:109} INFO - inserted another chunk, took 173.551 second
+[2022-07-05 19:30:24,392] {logging_mixin.py:109} INFO - inserted another chunk, took 177.790 second
+[2022-07-05 19:33:10,357] {logging_mixin.py:109} INFO - inserted another chunk, took 165.954 second
+[2022-07-05 19:36:29,883] {logging_mixin.py:109} INFO - inserted another chunk, took 199.521 second
+[2022-07-05 19:39:19,775] {logging_mixin.py:109} INFO - inserted another chunk, took 169.889 second
+[2022-07-05 19:42:47,371] {logging_mixin.py:109} INFO - inserted another chunk, took 207.590 second
+[2022-07-05 19:45:44,343] {logging_mixin.py:109} INFO - inserted another chunk, took 176.967 second
+[2022-07-05 19:48:38,912] {logging_mixin.py:109} INFO - inserted another chunk, took 174.566 second
+[2022-07-05 19:51:26,158] {logging_mixin.py:109} INFO - inserted another chunk, took 167.240 second
+[2022-07-05 19:54:16,922] {logging_mixin.py:109} INFO - inserted another chunk, took 170.762 second
+[2022-07-05 19:54:17,423] {warnings.py:99} WARNING - /home/***/.local/lib/python3.6/site-packages/***/models/taskinstance.py:1511: DtypeWarning: Columns (6) have mixed types.Specify dtype option on import or set low_memory=False.
+  result = execute_callable(context=context)
+
+[2022-07-05 19:57:50,246] {logging_mixin.py:109} INFO - inserted another chunk, took 213.320 second
+[2022-07-05 19:59:29,104] {logging_mixin.py:109} INFO - inserted another chunk, took 98.855 second
+[2022-07-05 19:59:29,107] {logging_mixin.py:109} INFO - completed
+[2022-07-05 19:59:29,117] {python.py:175} INFO - Done. Returned value was: None
+[2022-07-05 19:59:29,167] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=ingest, execution_date=20220102T060000, start_date=20220705T184945, end_date=20220705T195929
+[2022-07-05 19:59:29,403] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-05 19:59:29,540] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

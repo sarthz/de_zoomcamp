@@ -1,0 +1,3 @@
+[2022-07-08 05:22:37,318] {taskinstance.py:1026} INFO - Dependencies not met for <TaskInstance: yellow_taxi_dag4.download_data_task manual__2022-07-08T05:22:33.912074+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-07-08T05:22:33.912074+00:00 but this is after the task's end date 2020-12-31T00:00:00+00:00.
+[2022-07-08 05:22:37,323] {taskinstance.py:1026} INFO - Dependencies not met for <TaskInstance: yellow_taxi_dag4.download_data_task manual__2022-07-08T05:22:33.912074+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-07-08T05:22:33.912074+00:00 but this is after the task's DAG's end date 2020-12-31T00:00:00+00:00.
+[2022-07-08 05:22:37,365] {local_task_job.py:99} INFO - Task is not able to be run

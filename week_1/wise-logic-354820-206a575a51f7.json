@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wise-logic-354820",
+  "private_key_id": "206a575a51f797186280cf0c0a937692c179cf7f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqZYbkyqgzgEbM\nFhA1FdUQbVGOQ3y2xpKx3aT6qm7LvbuM6/298EFGiuDt2bLbp3sa8Z3sYHiBMBgS\n8dHLt3PHTLu+0nlRqKQP+4PPgKW801jhTkj6/kr1TJHC6xJs0udp0VtBOR95HLs5\ngIcuQDQHC87a7zlRxUAl047GbteKom1lPnB1A6Ed6nOHuFbXHfUEOUJmVbbpyxGc\nXC4JGF9wr6ZtfDdv3wVmH/EILqWtNS2I67GnvBwRYsQzwo9exERAoZGB6juKBn1t\npxuKfiX1W91xl/VNMVrakhnBhXIwDHmyUfeGd3xExjUxGMwC5Mi2qVzirbB/bve4\n7VRt3IKpAgMBAAECggEAEjSKtwMX+XipF8D7tlBA1WJ4pjR7rKOGpM5DhCyVbds1\noJbOI2756mmIIqFxxJoeQwCxmMGt3k+fItcHTTaqfg6quHaQU7Mq5DJBIPhjvMrv\n4hKVJYvpwk+N+z9WVp4p71pY350UycHSFxCuYLinVmFilm2cuCnU8rWpuXW6Patz\n/bPz+TeU0B88JevL0vOpOWn57zlq5eiq3aYPJnt7fooajbZdPvX1uPGGkh23duXA\npX0h+bk8Bx/0dkZXc8h7n9vqwGMhz64OVLCtTxn5IuIcQa1UuDJe4VmbcNY+tFeL\nWUGRgJNM9cEoSAj47O4x0CCl+Cio/xXtTpKz/aPaIQKBgQDsvTqelG0nf/rETMFF\nja+fvs1/+tKndme7hiQJcnDHG/5s/UZrRQE0myGjyFhjC8zR8zV5wboBx+xdEyxi\no2Cfk1cRzdPCWBEakwaaDSk2XMY5d1t1soJzHg5YDb1MGK0dh6KOWcSQgCxivpFY\nbqC+8HkSWdYfV22cTL+sszikJQKBgQC4QoYP14l1UEdrxQV7XAXV2nkEspw1t9iY\neFCuxOrw9C+cvqLu/4i/8R4N8FfGTPr75VmE8A4H2Nr17RRR8k5i7YJEwYvmaODD\n7sWUJM6s4KMgXZ/ImONwxvQLBwGQ+WImZJBz2FwkZh982eCywpWKv+IexzEsHGsT\nvqjYV7Y7NQKBgQCLp7Gd/QdLZvcCuBjHtCangQJvfgKo4XOeLyqxG/6lpsD3gI37\nF9D3PJCisrxZaYuhSuz/76WQCWVJHtdvNNv6JwwVJ6vFGPi2CYe6dwsZ067oFZ4x\nl2XXDSL/FNPXwTLWmb3uZcxMRiBo++x4E4LmQKvbhH2JLaUusCPeeDdwtQKBgE5I\nHPKwDHslvyIfE0QkhWokplODmnAMCl5Eh2qoyHPUGkJKj6hgMfXx92XOnUvnOp44\nAz9CSYO18tiWf5KNEhZfd3/Ehq4+EnfLgm98771stoEypYawxbgNHnNs55JzEOrk\nwKYm3oasSGZfnmHz31qSSPvwfoiSDj/WOZ+oLAidAoGBAOXslXe536HCSAK1feLS\nKDsBSK6LWImN+z8Sfw+uTmE0Qifgdanpz9nHQGv/LtIJwg4koq8DcL6OzX8Y3xxZ\nGDUVSY9SeAh0dG3vNJ0bhQnuAJ10W6dK2UvUJqLV+hwCR1IRRicZx8nUcncAKS/k\nbTY4HqQOvlJagMyexNTRObXQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "dtc-de-user@wise-logic-354820.iam.gserviceaccount.com",
+  "client_id": "115171255849357034389",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dtc-de-user%40wise-logic-354820.iam.gserviceaccount.com"
+}

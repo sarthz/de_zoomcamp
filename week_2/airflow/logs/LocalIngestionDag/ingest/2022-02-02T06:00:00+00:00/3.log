@@ -1,0 +1,69 @@
+[2022-07-05 17:36:52,643] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.ingest scheduled__2022-02-02T06:00:00+00:00 [queued]>
+[2022-07-05 17:36:52,721] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.ingest scheduled__2022-02-02T06:00:00+00:00 [queued]>
+[2022-07-05 17:36:52,728] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 17:36:52,731] {taskinstance.py:1239} INFO - Starting attempt 3 of 3
+[2022-07-05 17:36:52,733] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-05 17:36:52,799] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): ingest> on 2022-02-02 06:00:00+00:00
+[2022-07-05 17:36:52,833] {standard_task_runner.py:52} INFO - Started process 2826 to run task
+[2022-07-05 17:36:52,855] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'ingest', 'scheduled__2022-02-02T06:00:00+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpkxhs2aiv', '--error-file', '/tmp/tmpx4wbiorw']
+[2022-07-05 17:36:52,889] {standard_task_runner.py:77} INFO - Job 69: Subtask ingest
+[2022-07-05 17:36:53,169] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.ingest scheduled__2022-02-02T06:00:00+00:00 [running]> on host ec047ba4deb7
+[2022-07-05 17:36:53,356] {warnings.py:99} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-07-05 17:36:53,473] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-02T06:00:00+00:00
+[2022-07-05 17:36:53,489] {logging_mixin.py:109} INFO - ??? /opt/***/output_2022-02.csv
+[2022-07-05 17:36:53,496] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ingest_script.py", line 21, in ingest_callable
+    engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{db}')
+NameError: name 'password' is not defined
+[2022-07-05 17:36:53,568] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=LocalIngestionDag, task_id=ingest, execution_date=20220202T060000, start_date=20220705T173652, end_date=20220705T173653
+[2022-07-05 17:36:53,654] {standard_task_runner.py:92} ERROR - Failed to execute job 69 for task ingest
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 185, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ingest_script.py", line 21, in ingest_callable
+    engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{db}')
+NameError: name 'password' is not defined
+[2022-07-05 17:36:53,753] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-07-05 17:36:54,024] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

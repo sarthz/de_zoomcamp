@@ -1,0 +1,30 @@
+[2022-07-08 04:56:26,058] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_dag.curl scheduled__2022-05-02T06:00:00+00:00 [queued]>
+[2022-07-08 04:56:26,097] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: yellow_taxi_dag.curl scheduled__2022-05-02T06:00:00+00:00 [queued]>
+[2022-07-08 04:56:26,099] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 04:56:26,101] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-07-08 04:56:26,105] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-08 04:56:26,137] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): curl> on 2022-05-02 06:00:00+00:00
+[2022-07-08 04:56:26,170] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'yellow_taxi_dag', 'curl', 'scheduled__2022-05-02T06:00:00+00:00', '--job-id', '211', '--raw', '--subdir', 'DAGS_FOLDER/yellow_taxi_dag.py', '--cfg-path', '/tmp/tmpnodk1qzv', '--error-file', '/tmp/tmpgnejm1p0']
+[2022-07-08 04:56:26,175] {standard_task_runner.py:77} INFO - Job 211: Subtask curl
+[2022-07-08 04:56:26,160] {standard_task_runner.py:52} INFO - Started process 1000 to run task
+[2022-07-08 04:56:26,508] {logging_mixin.py:109} INFO - Running <TaskInstance: yellow_taxi_dag.curl scheduled__2022-05-02T06:00:00+00:00 [running]> on host 2b856f2081be
+[2022-07-08 04:56:26,679] {warnings.py:99} WARNING - /home/***/.local/lib/python3.6/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-07-08 04:56:26,756] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=yellow_taxi_dag
+AIRFLOW_CTX_TASK_ID=curl
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-02T06:00:00+00:00
+[2022-07-08 04:56:26,764] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-08 04:56:26,769] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "2022_05" ']
+[2022-07-08 04:56:26,793] {subprocess.py:85} INFO - Output:
+[2022-07-08 04:56:26,805] {subprocess.py:89} INFO - 2022_05
+[2022-07-08 04:56:26,807] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-07-08 04:56:26,913] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=yellow_taxi_dag, task_id=curl, execution_date=20220502T060000, start_date=20220708T045626, end_date=20220708T045626
+[2022-07-08 04:56:27,008] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-07-08 04:56:27,204] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+- release_tracks: [ALPHA]
+
+  help_text:
+    brief: Delete a single Connection
+    description: Delete a single Connection.
+    examples: |
+      To delete a connection named ``my-connection'' run:
+
+      $ {command} my-connection --project={project} --location={location}
+
+  async:
+    collection: beyondcorp.projects.locations.operations
+
+  request:
+    collection: beyondcorp.projects.locations.appConnections
+
+  response:
+    modify_response_hooks:
+    - googlecloudsdk.command_lib.beyondcorp.app.connections.hooks:PrintMessageInResponse
+
+  arguments:
+    resource:
+      arg_name: connection
+      spec: !REF googlecloudsdk.command_lib.beyondcorp.app.resources:appconnection
+      help_text: The Beyondcorp connection you want to delete.
