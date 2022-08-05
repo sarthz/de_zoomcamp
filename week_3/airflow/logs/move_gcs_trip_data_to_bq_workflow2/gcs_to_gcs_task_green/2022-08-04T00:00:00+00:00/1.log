@@ -1,0 +1,119 @@
+[2022-08-05 16:34:39,379] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: move_gcs_trip_data_to_bq_workflow2.gcs_to_gcs_task_green scheduled__2022-08-04T00:00:00+00:00 [queued]>
+[2022-08-05 16:34:39,423] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: move_gcs_trip_data_to_bq_workflow2.gcs_to_gcs_task_green scheduled__2022-08-04T00:00:00+00:00 [queued]>
+[2022-08-05 16:34:39,425] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-05 16:34:39,427] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-08-05 16:34:39,428] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-05 16:34:39,475] {taskinstance.py:1259} INFO - Executing <Task(GCSToGCSOperator): gcs_to_gcs_task_green> on 2022-08-04 00:00:00+00:00
+[2022-08-05 16:34:39,496] {standard_task_runner.py:52} INFO - Started process 5079 to run task
+[2022-08-05 16:34:39,513] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'move_gcs_trip_data_to_bq_workflow2', 'gcs_to_gcs_task_green', 'scheduled__2022-08-04T00:00:00+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq.py', '--cfg-path', '/tmp/tmpk6wmvmms', '--error-file', '/tmp/tmpyzhtqw53']
+[2022-08-05 16:34:39,572] {standard_task_runner.py:77} INFO - Job 63: Subtask gcs_to_gcs_task_green
+[2022-08-05 16:34:39,731] {logging_mixin.py:109} INFO - Running <TaskInstance: move_gcs_trip_data_to_bq_workflow2.gcs_to_gcs_task_green scheduled__2022-08-04T00:00:00+00:00 [running]> on host a02ae1da6c7b
+[2022-08-05 16:34:39,833] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=move_gcs_trip_data_to_bq_workflow2
+AIRFLOW_CTX_TASK_ID=gcs_to_gcs_task_green
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-04T00:00:00+00:00
+[2022-08-05 16:34:39,839] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-08-05 16:34:39,841] {gcs_to_gcs.py:346} INFO - Delimiter ignored because wildcard is in prefix
+[2022-08-05 16:34:40,203] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-04.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-04.parquet
+[2022-08-05 16:34:40,339] {gcs.py:251} INFO - Total Bytes: 713573 | Bytes Written: 713573
+[2022-08-05 16:34:40,365] {gcs.py:264} INFO - Object raw/green_tripdata_2020-04.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-04.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:40,480] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-04.parquet deleted.
+[2022-08-05 16:34:40,484] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-05.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-05.parquet
+[2022-08-05 16:34:40,577] {gcs.py:251} INFO - Total Bytes: 9050672 | Bytes Written: 9050672
+[2022-08-05 16:34:40,583] {gcs.py:264} INFO - Object raw/green_tripdata_2019-05.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-05.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:40,687] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-05.parquet deleted.
+[2022-08-05 16:34:40,689] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-04.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-04.parquet
+[2022-08-05 16:34:40,812] {gcs.py:251} INFO - Total Bytes: 9412998 | Bytes Written: 9412998
+[2022-08-05 16:34:40,816] {gcs.py:264} INFO - Object raw/green_tripdata_2019-04.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-04.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:40,951] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-04.parquet deleted.
+[2022-08-05 16:34:40,969] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-05.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-05.parquet
+[2022-08-05 16:34:41,402] {gcs.py:251} INFO - Total Bytes: 1082586 | Bytes Written: 1082586
+[2022-08-05 16:34:41,412] {gcs.py:264} INFO - Object raw/green_tripdata_2020-05.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-05.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:41,574] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-05.parquet deleted.
+[2022-08-05 16:34:41,582] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-10.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-10.parquet
+[2022-08-05 16:34:41,766] {gcs.py:251} INFO - Total Bytes: 1731109 | Bytes Written: 1731109
+[2022-08-05 16:34:41,773] {gcs.py:264} INFO - Object raw/green_tripdata_2020-10.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-10.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:41,911] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-10.parquet deleted.
+[2022-08-05 16:34:41,915] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-01.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-01.parquet
+[2022-08-05 16:34:42,064] {gcs.py:251} INFO - Total Bytes: 11071980 | Bytes Written: 11071980
+[2022-08-05 16:34:42,171] {gcs.py:264} INFO - Object raw/green_tripdata_2019-01.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-01.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:42,333] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-01.parquet deleted.
+[2022-08-05 16:34:42,337] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-08.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-08.parquet
+[2022-08-05 16:34:42,478] {gcs.py:251} INFO - Total Bytes: 7554849 | Bytes Written: 7554849
+[2022-08-05 16:34:42,481] {gcs.py:264} INFO - Object raw/green_tripdata_2019-08.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-08.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:42,619] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-08.parquet deleted.
+[2022-08-05 16:34:42,655] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-12.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-12.parquet
+[2022-08-05 16:34:42,829] {gcs.py:251} INFO - Total Bytes: 7523110 | Bytes Written: 7523110
+[2022-08-05 16:34:42,838] {gcs.py:264} INFO - Object raw/green_tripdata_2019-12.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-12.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:42,990] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-12.parquet deleted.
+[2022-08-05 16:34:42,995] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-06.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-06.parquet
+[2022-08-05 16:34:43,082] {gcs.py:251} INFO - Total Bytes: 8548670 | Bytes Written: 8548670
+[2022-08-05 16:34:43,089] {gcs.py:264} INFO - Object raw/green_tripdata_2019-06.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-06.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:43,161] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-06.parquet deleted.
+[2022-08-05 16:34:43,163] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-02.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-02.parquet
+[2022-08-05 16:34:43,236] {gcs.py:251} INFO - Total Bytes: 10316792 | Bytes Written: 10316792
+[2022-08-05 16:34:43,238] {gcs.py:264} INFO - Object raw/green_tripdata_2019-02.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-02.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:43,327] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-02.parquet deleted.
+[2022-08-05 16:34:43,330] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-07.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-07.parquet
+[2022-08-05 16:34:43,425] {gcs.py:251} INFO - Total Bytes: 7921122 | Bytes Written: 7921122
+[2022-08-05 16:34:43,427] {gcs.py:264} INFO - Object raw/green_tripdata_2019-07.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-07.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:43,533] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-07.parquet deleted.
+[2022-08-05 16:34:43,536] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-03.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-03.parquet
+[2022-08-05 16:34:43,643] {gcs.py:251} INFO - Total Bytes: 4019591 | Bytes Written: 4019591
+[2022-08-05 16:34:43,646] {gcs.py:264} INFO - Object raw/green_tripdata_2020-03.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-03.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:43,719] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-03.parquet deleted.
+[2022-08-05 16:34:43,721] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-07.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-07.parquet
+[2022-08-05 16:34:43,802] {gcs.py:251} INFO - Total Bytes: 1308197 | Bytes Written: 1308197
+[2022-08-05 16:34:43,804] {gcs.py:264} INFO - Object raw/green_tripdata_2020-07.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-07.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:43,868] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-07.parquet deleted.
+[2022-08-05 16:34:43,870] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-01.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-01.parquet
+[2022-08-05 16:34:43,956] {gcs.py:251} INFO - Total Bytes: 7183298 | Bytes Written: 7183298
+[2022-08-05 16:34:43,958] {gcs.py:264} INFO - Object raw/green_tripdata_2020-01.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-01.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:44,033] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-01.parquet deleted.
+[2022-08-05 16:34:44,035] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-03.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-03.parquet
+[2022-08-05 16:34:44,121] {gcs.py:251} INFO - Total Bytes: 10760872 | Bytes Written: 10760872
+[2022-08-05 16:34:44,140] {gcs.py:264} INFO - Object raw/green_tripdata_2019-03.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-03.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:44,214] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-03.parquet deleted.
+[2022-08-05 16:34:44,233] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-10.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-10.parquet
+[2022-08-05 16:34:44,339] {gcs.py:251} INFO - Total Bytes: 7864969 | Bytes Written: 7864969
+[2022-08-05 16:34:44,342] {gcs.py:264} INFO - Object raw/green_tripdata_2019-10.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-10.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:44,454] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-10.parquet deleted.
+[2022-08-05 16:34:44,458] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-09.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-09.parquet
+[2022-08-05 16:34:44,531] {gcs.py:251} INFO - Total Bytes: 7692006 | Bytes Written: 7692006
+[2022-08-05 16:34:44,533] {gcs.py:264} INFO - Object raw/green_tripdata_2019-09.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-09.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:44,601] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-09.parquet deleted.
+[2022-08-05 16:34:44,604] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-12.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-12.parquet
+[2022-08-05 16:34:44,715] {gcs.py:251} INFO - Total Bytes: 1458436 | Bytes Written: 1458436
+[2022-08-05 16:34:44,717] {gcs.py:264} INFO - Object raw/green_tripdata_2020-12.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-12.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:44,841] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-12.parquet deleted.
+[2022-08-05 16:34:44,844] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-06.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-06.parquet
+[2022-08-05 16:34:44,944] {gcs.py:251} INFO - Total Bytes: 1205174 | Bytes Written: 1205174
+[2022-08-05 16:34:44,947] {gcs.py:264} INFO - Object raw/green_tripdata_2020-06.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-06.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:45,026] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-06.parquet deleted.
+[2022-08-05 16:34:45,033] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-11.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-11.parquet
+[2022-08-05 16:34:45,161] {gcs.py:251} INFO - Total Bytes: 1616478 | Bytes Written: 1616478
+[2022-08-05 16:34:45,164] {gcs.py:264} INFO - Object raw/green_tripdata_2020-11.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-11.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:45,260] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-11.parquet deleted.
+[2022-08-05 16:34:45,262] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2019-11.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2019-11.parquet
+[2022-08-05 16:34:45,349] {gcs.py:251} INFO - Total Bytes: 7584466 | Bytes Written: 7584466
+[2022-08-05 16:34:45,354] {gcs.py:264} INFO - Object raw/green_tripdata_2019-11.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2019-11.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:45,429] {gcs.py:645} INFO - Blob raw/green_tripdata_2019-11.parquet deleted.
+[2022-08-05 16:34:45,431] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-09.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-09.parquet
+[2022-08-05 16:34:45,537] {gcs.py:251} INFO - Total Bytes: 1586731 | Bytes Written: 1586731
+[2022-08-05 16:34:45,538] {gcs.py:264} INFO - Object raw/green_tripdata_2020-09.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-09.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:45,625] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-09.parquet deleted.
+[2022-08-05 16:34:45,627] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-08.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-08.parquet
+[2022-08-05 16:34:45,727] {gcs.py:251} INFO - Total Bytes: 1503105 | Bytes Written: 1503105
+[2022-08-05 16:34:45,729] {gcs.py:264} INFO - Object raw/green_tripdata_2020-08.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-08.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:45,801] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-08.parquet deleted.
+[2022-08-05 16:34:45,804] {gcs_to_gcs.py:431} INFO - Executing copy of gs://dtc_data_lake_wise-logic-354820/raw/green_tripdata_2020-02.parquet to gs://dtc_data_lake_wise-logic-354820/green/_2020-02.parquet
+[2022-08-05 16:34:45,899] {gcs.py:251} INFO - Total Bytes: 6649395 | Bytes Written: 6649395
+[2022-08-05 16:34:45,901] {gcs.py:264} INFO - Object raw/green_tripdata_2020-02.parquet in bucket dtc_data_lake_wise-logic-354820 rewritten to object green/_2020-02.parquet in bucket dtc_data_lake_wise-logic-354820
+[2022-08-05 16:34:45,986] {gcs.py:645} INFO - Blob raw/green_tripdata_2020-02.parquet deleted.
+[2022-08-05 16:34:46,057] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=move_gcs_trip_data_to_bq_workflow2, task_id=gcs_to_gcs_task_green, execution_date=20220804T000000, start_date=20220805T163439, end_date=20220805T163446
+[2022-08-05 16:34:46,130] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-08-05 16:34:46,247] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

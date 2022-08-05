@@ -1,0 +1,22 @@
+[2022-08-05 16:42:01,586] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: move_gcs_trip_data_to_bq_workflow2.bigquery_external_table_task_green scheduled__2022-08-04T00:00:00+00:00 [queued]>
+[2022-08-05 16:42:01,602] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: move_gcs_trip_data_to_bq_workflow2.bigquery_external_table_task_green scheduled__2022-08-04T00:00:00+00:00 [queued]>
+[2022-08-05 16:42:01,603] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-05 16:42:01,604] {taskinstance.py:1239} INFO - Starting attempt 2 of 3
+[2022-08-05 16:42:01,606] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-05 16:42:01,623] {taskinstance.py:1259} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bigquery_external_table_task_green> on 2022-08-04 00:00:00+00:00
+[2022-08-05 16:42:01,631] {standard_task_runner.py:52} INFO - Started process 5427 to run task
+[2022-08-05 16:42:01,642] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'move_gcs_trip_data_to_bq_workflow2', 'bigquery_external_table_task_green', 'scheduled__2022-08-04T00:00:00+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq.py', '--cfg-path', '/tmp/tmpmin9xetc', '--error-file', '/tmp/tmpzp2okirn']
+[2022-08-05 16:42:01,644] {standard_task_runner.py:77} INFO - Job 77: Subtask bigquery_external_table_task_green
+[2022-08-05 16:42:01,731] {logging_mixin.py:109} INFO - Running <TaskInstance: move_gcs_trip_data_to_bq_workflow2.bigquery_external_table_task_green scheduled__2022-08-04T00:00:00+00:00 [running]> on host a02ae1da6c7b
+[2022-08-05 16:42:01,808] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=move_gcs_trip_data_to_bq_workflow2
+AIRFLOW_CTX_TASK_ID=bigquery_external_table_task_green
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-04T00:00:00+00:00
+[2022-08-05 16:42:01,813] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-08-05 16:42:02,710] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=move_gcs_trip_data_to_bq_workflow2, task_id=bigquery_external_table_task_green, execution_date=20220804T000000, start_date=20220805T164201, end_date=20220805T164202
+[2022-08-05 16:42:02,748] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-08-05 16:42:02,808] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
