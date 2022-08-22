@@ -4651,3 +4651,1046 @@ SyntaxError: invalid syntax
 [2022-08-05 18:42:52,779] {logging_mixin.py:109} INFO - [2022-08-05 18:42:52,778] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-08-05 18:42:52,812] {logging_mixin.py:109} INFO - [2022-08-05 18:42:52,811] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
 [2022-08-05 18:42:52,845] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.628 seconds
+[2022-08-05 18:43:22,963] {processor.py:163} INFO - Started process (PID=13677) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:43:22,965] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:43:22,967] {logging_mixin.py:109} INFO - [2022-08-05 18:43:22,967] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:43:23,924] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:43:23,941] {logging_mixin.py:109} INFO - [2022-08-05 18:43:23,940] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:43:23,970] {logging_mixin.py:109} INFO - [2022-08-05 18:43:23,970] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:43:23,987] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.035 seconds
+[2022-08-05 18:43:54,066] {processor.py:163} INFO - Started process (PID=13701) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:43:54,069] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:43:54,071] {logging_mixin.py:109} INFO - [2022-08-05 18:43:54,071] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:43:55,449] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:43:55,474] {logging_mixin.py:109} INFO - [2022-08-05 18:43:55,473] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:43:55,498] {logging_mixin.py:109} INFO - [2022-08-05 18:43:55,498] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:43:55,512] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.453 seconds
+[2022-08-05 18:44:25,677] {processor.py:163} INFO - Started process (PID=13734) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:44:25,680] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:44:25,682] {logging_mixin.py:109} INFO - [2022-08-05 18:44:25,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:44:27,173] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:44:27,210] {logging_mixin.py:109} INFO - [2022-08-05 18:44:27,209] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:44:27,286] {logging_mixin.py:109} INFO - [2022-08-05 18:44:27,286] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:44:27,318] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.647 seconds
+[2022-08-05 18:44:57,420] {processor.py:163} INFO - Started process (PID=13759) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:44:57,423] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:44:57,425] {logging_mixin.py:109} INFO - [2022-08-05 18:44:57,425] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:44:58,400] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:44:58,416] {logging_mixin.py:109} INFO - [2022-08-05 18:44:58,415] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:44:58,435] {logging_mixin.py:109} INFO - [2022-08-05 18:44:58,435] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:44:58,450] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.035 seconds
+[2022-08-05 18:45:28,559] {processor.py:163} INFO - Started process (PID=13783) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:45:28,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:45:28,564] {logging_mixin.py:109} INFO - [2022-08-05 18:45:28,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:45:29,861] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:45:29,884] {logging_mixin.py:109} INFO - [2022-08-05 18:45:29,883] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:45:29,925] {logging_mixin.py:109} INFO - [2022-08-05 18:45:29,925] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:45:29,951] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.399 seconds
+[2022-08-05 18:46:00,066] {processor.py:163} INFO - Started process (PID=13811) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:46:00,070] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:46:00,072] {logging_mixin.py:109} INFO - [2022-08-05 18:46:00,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:46:00,909] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:46:00,927] {logging_mixin.py:109} INFO - [2022-08-05 18:46:00,926] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:46:00,948] {logging_mixin.py:109} INFO - [2022-08-05 18:46:00,948] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:46:00,961] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.901 seconds
+[2022-08-05 18:46:31,050] {processor.py:163} INFO - Started process (PID=13847) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:46:31,055] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:46:31,058] {logging_mixin.py:109} INFO - [2022-08-05 18:46:31,057] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:46:31,971] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:46:31,997] {logging_mixin.py:109} INFO - [2022-08-05 18:46:31,996] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:46:32,034] {logging_mixin.py:109} INFO - [2022-08-05 18:46:32,033] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:46:32,080] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.039 seconds
+[2022-08-05 18:47:02,190] {processor.py:163} INFO - Started process (PID=13872) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:47:02,192] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:47:02,193] {logging_mixin.py:109} INFO - [2022-08-05 18:47:02,193] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:47:03,017] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:47:03,035] {logging_mixin.py:109} INFO - [2022-08-05 18:47:03,035] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:47:03,060] {logging_mixin.py:109} INFO - [2022-08-05 18:47:03,059] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:47:03,076] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.890 seconds
+[2022-08-05 18:47:33,212] {processor.py:163} INFO - Started process (PID=13897) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:47:33,215] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:47:33,220] {logging_mixin.py:109} INFO - [2022-08-05 18:47:33,220] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:47:33,969] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:47:33,983] {logging_mixin.py:109} INFO - [2022-08-05 18:47:33,983] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:47:34,003] {logging_mixin.py:109} INFO - [2022-08-05 18:47:34,003] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:47:34,020] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.813 seconds
+[2022-08-05 18:48:04,195] {processor.py:163} INFO - Started process (PID=13929) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:48:04,199] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:48:04,166] {logging_mixin.py:109} INFO - [2022-08-05 18:48:04,166] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:48:05,371] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:48:05,388] {logging_mixin.py:109} INFO - [2022-08-05 18:48:05,388] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:48:05,412] {logging_mixin.py:109} INFO - [2022-08-05 18:48:05,412] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:48:05,429] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.276 seconds
+[2022-08-05 18:48:35,513] {processor.py:163} INFO - Started process (PID=13960) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:48:35,516] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:48:35,517] {logging_mixin.py:109} INFO - [2022-08-05 18:48:35,517] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:48:36,329] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:48:36,349] {logging_mixin.py:109} INFO - [2022-08-05 18:48:36,349] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:48:36,375] {logging_mixin.py:109} INFO - [2022-08-05 18:48:36,375] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:48:36,398] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.890 seconds
+[2022-08-05 18:49:06,509] {processor.py:163} INFO - Started process (PID=13986) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:49:06,512] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:49:06,516] {logging_mixin.py:109} INFO - [2022-08-05 18:49:06,516] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:49:07,280] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:49:07,295] {logging_mixin.py:109} INFO - [2022-08-05 18:49:07,295] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:49:07,317] {logging_mixin.py:109} INFO - [2022-08-05 18:49:07,317] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:49:07,329] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.825 seconds
+[2022-08-05 18:49:37,482] {processor.py:163} INFO - Started process (PID=14024) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:49:37,484] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:49:37,486] {logging_mixin.py:109} INFO - [2022-08-05 18:49:37,486] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:49:38,352] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:49:38,369] {logging_mixin.py:109} INFO - [2022-08-05 18:49:38,368] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:49:38,393] {logging_mixin.py:109} INFO - [2022-08-05 18:49:38,392] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:49:38,408] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.931 seconds
+[2022-08-05 18:50:08,529] {processor.py:163} INFO - Started process (PID=14048) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:50:08,532] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:50:08,533] {logging_mixin.py:109} INFO - [2022-08-05 18:50:08,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:50:09,352] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:50:09,372] {logging_mixin.py:109} INFO - [2022-08-05 18:50:09,372] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:50:09,433] {logging_mixin.py:109} INFO - [2022-08-05 18:50:09,432] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:50:09,475] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.951 seconds
+[2022-08-05 18:50:39,650] {processor.py:163} INFO - Started process (PID=14071) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:50:39,652] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:50:39,654] {logging_mixin.py:109} INFO - [2022-08-05 18:50:39,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:50:40,553] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:50:40,567] {logging_mixin.py:109} INFO - [2022-08-05 18:50:40,566] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:50:40,589] {logging_mixin.py:109} INFO - [2022-08-05 18:50:40,589] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:50:40,623] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.977 seconds
+[2022-08-05 18:51:10,757] {processor.py:163} INFO - Started process (PID=14106) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:51:10,760] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:51:10,762] {logging_mixin.py:109} INFO - [2022-08-05 18:51:10,762] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:51:11,534] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:51:11,550] {logging_mixin.py:109} INFO - [2022-08-05 18:51:11,549] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:51:11,571] {logging_mixin.py:109} INFO - [2022-08-05 18:51:11,571] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:51:11,583] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.831 seconds
+[2022-08-05 18:51:41,750] {processor.py:163} INFO - Started process (PID=14131) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:51:41,752] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:51:41,754] {logging_mixin.py:109} INFO - [2022-08-05 18:51:41,754] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:51:42,526] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:51:42,542] {logging_mixin.py:109} INFO - [2022-08-05 18:51:42,541] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:51:42,561] {logging_mixin.py:109} INFO - [2022-08-05 18:51:42,561] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:51:42,577] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.831 seconds
+[2022-08-05 18:52:12,710] {processor.py:163} INFO - Started process (PID=14164) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:52:12,714] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:52:12,720] {logging_mixin.py:109} INFO - [2022-08-05 18:52:12,719] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:52:13,655] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:52:13,691] {logging_mixin.py:109} INFO - [2022-08-05 18:52:13,691] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:52:13,711] {logging_mixin.py:109} INFO - [2022-08-05 18:52:13,711] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:52:13,733] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.030 seconds
+[2022-08-05 18:52:43,860] {processor.py:163} INFO - Started process (PID=14188) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:52:43,862] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:52:43,864] {logging_mixin.py:109} INFO - [2022-08-05 18:52:43,864] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:52:44,696] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:52:44,715] {logging_mixin.py:109} INFO - [2022-08-05 18:52:44,715] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:52:44,766] {logging_mixin.py:109} INFO - [2022-08-05 18:52:44,766] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:52:44,779] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.923 seconds
+[2022-08-05 18:53:14,930] {processor.py:163} INFO - Started process (PID=14214) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:53:14,939] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:53:14,943] {logging_mixin.py:109} INFO - [2022-08-05 18:53:14,943] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:53:16,303] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:53:16,320] {logging_mixin.py:109} INFO - [2022-08-05 18:53:16,320] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:53:16,340] {logging_mixin.py:109} INFO - [2022-08-05 18:53:16,340] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:53:16,353] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.431 seconds
+[2022-08-05 18:53:46,488] {processor.py:163} INFO - Started process (PID=14239) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:53:46,492] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:53:46,495] {logging_mixin.py:109} INFO - [2022-08-05 18:53:46,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:53:47,442] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:53:47,457] {logging_mixin.py:109} INFO - [2022-08-05 18:53:47,457] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:53:47,485] {logging_mixin.py:109} INFO - [2022-08-05 18:53:47,485] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:53:47,502] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.020 seconds
+[2022-08-05 18:54:17,600] {processor.py:163} INFO - Started process (PID=14275) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:54:17,603] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:54:17,605] {logging_mixin.py:109} INFO - [2022-08-05 18:54:17,605] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:54:18,476] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:54:18,496] {logging_mixin.py:109} INFO - [2022-08-05 18:54:18,496] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:54:18,516] {logging_mixin.py:109} INFO - [2022-08-05 18:54:18,515] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:54:18,534] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.940 seconds
+[2022-08-05 18:54:48,685] {processor.py:163} INFO - Started process (PID=14300) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:54:48,687] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:54:48,689] {logging_mixin.py:109} INFO - [2022-08-05 18:54:48,688] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:54:49,472] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:54:49,487] {logging_mixin.py:109} INFO - [2022-08-05 18:54:49,487] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:54:49,507] {logging_mixin.py:109} INFO - [2022-08-05 18:54:49,507] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:54:49,519] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.838 seconds
+[2022-08-05 18:55:19,653] {processor.py:163} INFO - Started process (PID=14334) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:55:19,662] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:55:19,665] {logging_mixin.py:109} INFO - [2022-08-05 18:55:19,665] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:55:20,714] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:55:20,730] {logging_mixin.py:109} INFO - [2022-08-05 18:55:20,729] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:55:20,752] {logging_mixin.py:109} INFO - [2022-08-05 18:55:20,752] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:55:20,772] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.131 seconds
+[2022-08-05 18:55:50,896] {processor.py:163} INFO - Started process (PID=14357) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:55:50,899] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:55:50,900] {logging_mixin.py:109} INFO - [2022-08-05 18:55:50,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:55:51,716] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:55:51,730] {logging_mixin.py:109} INFO - [2022-08-05 18:55:51,729] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:55:51,753] {logging_mixin.py:109} INFO - [2022-08-05 18:55:51,753] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:55:51,766] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.877 seconds
+[2022-08-05 18:56:21,868] {processor.py:163} INFO - Started process (PID=14384) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:56:21,872] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:56:21,874] {logging_mixin.py:109} INFO - [2022-08-05 18:56:21,874] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:56:22,681] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:56:22,695] {logging_mixin.py:109} INFO - [2022-08-05 18:56:22,695] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:56:22,717] {logging_mixin.py:109} INFO - [2022-08-05 18:56:22,717] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:56:22,730] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.867 seconds
+[2022-08-05 18:56:52,899] {processor.py:163} INFO - Started process (PID=14420) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:56:52,902] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:56:52,903] {logging_mixin.py:109} INFO - [2022-08-05 18:56:52,903] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:56:53,818] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:56:53,833] {logging_mixin.py:109} INFO - [2022-08-05 18:56:53,833] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:56:53,853] {logging_mixin.py:109} INFO - [2022-08-05 18:56:53,853] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:56:53,869] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.976 seconds
+[2022-08-05 18:57:24,215] {processor.py:163} INFO - Started process (PID=14445) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:57:24,219] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:57:24,221] {logging_mixin.py:109} INFO - [2022-08-05 18:57:24,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:57:25,166] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:57:25,180] {logging_mixin.py:109} INFO - [2022-08-05 18:57:25,180] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:57:25,200] {logging_mixin.py:109} INFO - [2022-08-05 18:57:25,200] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:57:25,212] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.002 seconds
+[2022-08-05 18:57:55,361] {processor.py:163} INFO - Started process (PID=14470) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:57:55,364] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:57:55,366] {logging_mixin.py:109} INFO - [2022-08-05 18:57:55,365] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:57:56,235] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:57:56,255] {logging_mixin.py:109} INFO - [2022-08-05 18:57:56,255] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:57:56,275] {logging_mixin.py:109} INFO - [2022-08-05 18:57:56,275] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:57:56,287] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.931 seconds
+[2022-08-05 18:58:26,498] {processor.py:163} INFO - Started process (PID=14503) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:58:26,501] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:58:26,502] {logging_mixin.py:109} INFO - [2022-08-05 18:58:26,502] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:58:27,435] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:58:27,455] {logging_mixin.py:109} INFO - [2022-08-05 18:58:27,454] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:58:27,483] {logging_mixin.py:109} INFO - [2022-08-05 18:58:27,483] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:58:27,505] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.012 seconds
+[2022-08-05 18:58:57,665] {processor.py:163} INFO - Started process (PID=14527) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:58:57,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:58:57,668] {logging_mixin.py:109} INFO - [2022-08-05 18:58:57,668] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:58:58,462] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:58:58,476] {logging_mixin.py:109} INFO - [2022-08-05 18:58:58,476] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:58:58,494] {logging_mixin.py:109} INFO - [2022-08-05 18:58:58,493] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:58:58,508] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.847 seconds
+[2022-08-05 18:59:28,635] {processor.py:163} INFO - Started process (PID=14552) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:59:28,651] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:59:28,655] {logging_mixin.py:109} INFO - [2022-08-05 18:59:28,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:59:29,677] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:59:29,707] {logging_mixin.py:109} INFO - [2022-08-05 18:59:29,706] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 18:59:29,747] {logging_mixin.py:109} INFO - [2022-08-05 18:59:29,747] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 18:59:29,766] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.142 seconds
+[2022-08-05 18:59:59,941] {processor.py:163} INFO - Started process (PID=14577) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 18:59:59,945] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 18:59:59,948] {logging_mixin.py:109} INFO - [2022-08-05 18:59:59,948] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:00:01,026] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:00:01,044] {logging_mixin.py:109} INFO - [2022-08-05 19:00:01,043] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:00:01,067] {logging_mixin.py:109} INFO - [2022-08-05 19:00:01,067] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:00:01,086] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.154 seconds
+[2022-08-05 19:00:31,177] {processor.py:163} INFO - Started process (PID=14615) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:00:31,179] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:00:31,181] {logging_mixin.py:109} INFO - [2022-08-05 19:00:31,181] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:00:31,958] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:00:31,975] {logging_mixin.py:109} INFO - [2022-08-05 19:00:31,974] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:00:31,998] {logging_mixin.py:109} INFO - [2022-08-05 19:00:31,998] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:00:32,013] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.842 seconds
+[2022-08-05 19:01:02,135] {processor.py:163} INFO - Started process (PID=14640) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:01:02,139] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:01:02,142] {logging_mixin.py:109} INFO - [2022-08-05 19:01:02,142] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:01:03,094] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:01:03,110] {logging_mixin.py:109} INFO - [2022-08-05 19:01:03,109] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:01:03,136] {logging_mixin.py:109} INFO - [2022-08-05 19:01:03,136] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:01:03,153] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.027 seconds
+[2022-08-05 19:01:33,292] {processor.py:163} INFO - Started process (PID=14667) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:01:33,296] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:01:33,299] {logging_mixin.py:109} INFO - [2022-08-05 19:01:33,299] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:01:34,385] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:01:34,402] {logging_mixin.py:109} INFO - [2022-08-05 19:01:34,402] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:01:34,423] {logging_mixin.py:109} INFO - [2022-08-05 19:01:34,422] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:01:34,435] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.187 seconds
+[2022-08-05 19:02:04,526] {processor.py:163} INFO - Started process (PID=14701) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:02:04,528] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:02:04,530] {logging_mixin.py:109} INFO - [2022-08-05 19:02:04,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:02:05,327] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:02:05,343] {logging_mixin.py:109} INFO - [2022-08-05 19:02:05,343] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:02:05,362] {logging_mixin.py:109} INFO - [2022-08-05 19:02:05,362] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:02:05,375] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.853 seconds
+[2022-08-05 19:02:35,515] {processor.py:163} INFO - Started process (PID=14728) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:02:35,517] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:02:35,519] {logging_mixin.py:109} INFO - [2022-08-05 19:02:35,519] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:02:36,290] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:02:36,304] {logging_mixin.py:109} INFO - [2022-08-05 19:02:36,304] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:02:36,323] {logging_mixin.py:109} INFO - [2022-08-05 19:02:36,323] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:02:36,336] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.827 seconds
+[2022-08-05 19:03:06,482] {processor.py:163} INFO - Started process (PID=14764) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:03:06,491] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:03:06,494] {logging_mixin.py:109} INFO - [2022-08-05 19:03:06,494] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:03:07,659] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:03:07,682] {logging_mixin.py:109} INFO - [2022-08-05 19:03:07,681] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:03:07,770] {logging_mixin.py:109} INFO - [2022-08-05 19:03:07,770] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:03:07,798] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.336 seconds
+[2022-08-05 19:03:37,977] {processor.py:163} INFO - Started process (PID=14790) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:03:37,980] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:03:37,982] {logging_mixin.py:109} INFO - [2022-08-05 19:03:37,982] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:03:38,766] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:03:38,790] {logging_mixin.py:109} INFO - [2022-08-05 19:03:38,790] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:03:38,811] {logging_mixin.py:109} INFO - [2022-08-05 19:03:38,811] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:03:38,831] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.859 seconds
+[2022-08-05 19:04:08,928] {processor.py:163} INFO - Started process (PID=14813) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:04:08,931] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:04:08,934] {logging_mixin.py:109} INFO - [2022-08-05 19:04:08,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:04:09,717] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:04:09,731] {logging_mixin.py:109} INFO - [2022-08-05 19:04:09,731] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:04:09,750] {logging_mixin.py:109} INFO - [2022-08-05 19:04:09,750] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:04:09,763] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.841 seconds
+[2022-08-05 19:04:39,885] {processor.py:163} INFO - Started process (PID=14849) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:04:39,888] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:04:39,893] {logging_mixin.py:109} INFO - [2022-08-05 19:04:39,893] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:04:40,818] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:04:40,832] {logging_mixin.py:109} INFO - [2022-08-05 19:04:40,832] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:04:40,856] {logging_mixin.py:109} INFO - [2022-08-05 19:04:40,856] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:04:40,875] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.996 seconds
+[2022-08-05 19:05:10,982] {processor.py:163} INFO - Started process (PID=14873) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:05:10,985] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:05:10,987] {logging_mixin.py:109} INFO - [2022-08-05 19:05:10,987] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:05:12,533] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:05:12,562] {logging_mixin.py:109} INFO - [2022-08-05 19:05:12,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:05:12,598] {logging_mixin.py:109} INFO - [2022-08-05 19:05:12,598] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:05:12,938] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.960 seconds
+[2022-08-05 19:05:43,282] {processor.py:163} INFO - Started process (PID=14900) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:05:43,285] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:05:43,286] {logging_mixin.py:109} INFO - [2022-08-05 19:05:43,286] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:05:44,287] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:05:44,305] {logging_mixin.py:109} INFO - [2022-08-05 19:05:44,304] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:05:44,340] {logging_mixin.py:109} INFO - [2022-08-05 19:05:44,340] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:05:44,354] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.077 seconds
+[2022-08-05 19:06:14,481] {processor.py:163} INFO - Started process (PID=14935) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:06:14,486] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:06:14,489] {logging_mixin.py:109} INFO - [2022-08-05 19:06:14,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:06:15,276] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:06:15,290] {logging_mixin.py:109} INFO - [2022-08-05 19:06:15,290] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:06:15,313] {logging_mixin.py:109} INFO - [2022-08-05 19:06:15,313] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:06:15,325] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.849 seconds
+[2022-08-05 19:06:45,512] {processor.py:163} INFO - Started process (PID=14961) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:06:45,514] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:06:45,516] {logging_mixin.py:109} INFO - [2022-08-05 19:06:45,516] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:06:46,333] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:06:46,363] {logging_mixin.py:109} INFO - [2022-08-05 19:06:46,362] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:06:46,411] {logging_mixin.py:109} INFO - [2022-08-05 19:06:46,410] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:06:46,424] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.917 seconds
+[2022-08-05 19:07:16,608] {processor.py:163} INFO - Started process (PID=14996) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:07:16,612] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:07:16,615] {logging_mixin.py:109} INFO - [2022-08-05 19:07:16,615] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:07:17,999] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:07:18,034] {logging_mixin.py:109} INFO - [2022-08-05 19:07:18,033] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:07:18,080] {logging_mixin.py:109} INFO - [2022-08-05 19:07:18,080] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:07:18,103] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.505 seconds
+[2022-08-05 19:07:48,231] {processor.py:163} INFO - Started process (PID=15022) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:07:48,233] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:07:48,235] {logging_mixin.py:109} INFO - [2022-08-05 19:07:48,235] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:07:49,018] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:07:49,034] {logging_mixin.py:109} INFO - [2022-08-05 19:07:49,033] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:07:49,055] {logging_mixin.py:109} INFO - [2022-08-05 19:07:49,055] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:07:49,070] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.844 seconds
+[2022-08-05 19:08:19,179] {processor.py:163} INFO - Started process (PID=15047) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:08:19,182] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:08:19,184] {logging_mixin.py:109} INFO - [2022-08-05 19:08:19,184] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:08:19,997] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:08:20,014] {logging_mixin.py:109} INFO - [2022-08-05 19:08:20,013] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:08:20,039] {logging_mixin.py:109} INFO - [2022-08-05 19:08:20,039] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:08:20,057] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.883 seconds
+[2022-08-05 19:08:50,191] {processor.py:163} INFO - Started process (PID=15071) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:08:50,197] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:08:50,199] {logging_mixin.py:109} INFO - [2022-08-05 19:08:50,199] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:08:51,508] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:08:51,531] {logging_mixin.py:109} INFO - [2022-08-05 19:08:51,530] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:08:51,621] {logging_mixin.py:109} INFO - [2022-08-05 19:08:51,621] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:08:51,637] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.453 seconds
+[2022-08-05 19:09:21,852] {processor.py:163} INFO - Started process (PID=15104) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:09:21,856] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:09:21,858] {logging_mixin.py:109} INFO - [2022-08-05 19:09:21,858] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:09:22,659] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:09:22,674] {logging_mixin.py:109} INFO - [2022-08-05 19:09:22,673] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:09:22,694] {logging_mixin.py:109} INFO - [2022-08-05 19:09:22,694] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:09:22,707] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.860 seconds
+[2022-08-05 19:09:52,910] {processor.py:163} INFO - Started process (PID=15128) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:09:52,916] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:09:52,918] {logging_mixin.py:109} INFO - [2022-08-05 19:09:52,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:09:53,750] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:09:53,764] {logging_mixin.py:109} INFO - [2022-08-05 19:09:53,764] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:09:53,788] {logging_mixin.py:109} INFO - [2022-08-05 19:09:53,788] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:09:53,807] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.902 seconds
+[2022-08-05 19:10:23,944] {processor.py:163} INFO - Started process (PID=15154) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:10:23,947] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:10:23,950] {logging_mixin.py:109} INFO - [2022-08-05 19:10:23,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:10:24,795] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:10:24,829] {logging_mixin.py:109} INFO - [2022-08-05 19:10:24,829] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:10:24,851] {logging_mixin.py:109} INFO - [2022-08-05 19:10:24,850] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:10:24,865] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.926 seconds
+[2022-08-05 19:10:55,150] {processor.py:163} INFO - Started process (PID=15190) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:10:55,156] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:10:55,164] {logging_mixin.py:109} INFO - [2022-08-05 19:10:55,164] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:10:56,363] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:10:56,380] {logging_mixin.py:109} INFO - [2022-08-05 19:10:56,379] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:10:56,411] {logging_mixin.py:109} INFO - [2022-08-05 19:10:56,411] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:10:56,426] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.284 seconds
+[2022-08-05 19:11:26,596] {processor.py:163} INFO - Started process (PID=15216) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:11:26,601] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:11:26,604] {logging_mixin.py:109} INFO - [2022-08-05 19:11:26,604] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:11:27,641] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:11:27,658] {logging_mixin.py:109} INFO - [2022-08-05 19:11:27,657] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:11:27,678] {logging_mixin.py:109} INFO - [2022-08-05 19:11:27,678] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:11:27,692] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.103 seconds
+[2022-08-05 19:11:57,826] {processor.py:163} INFO - Started process (PID=15240) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:11:57,830] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:11:57,831] {logging_mixin.py:109} INFO - [2022-08-05 19:11:57,831] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:11:58,882] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:11:58,900] {logging_mixin.py:109} INFO - [2022-08-05 19:11:58,899] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:11:58,925] {logging_mixin.py:109} INFO - [2022-08-05 19:11:58,925] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:11:58,946] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.127 seconds
+[2022-08-05 19:12:29,108] {processor.py:163} INFO - Started process (PID=15276) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:12:29,121] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:12:29,127] {logging_mixin.py:109} INFO - [2022-08-05 19:12:29,126] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:12:30,633] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:12:30,649] {logging_mixin.py:109} INFO - [2022-08-05 19:12:30,648] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:12:30,673] {logging_mixin.py:109} INFO - [2022-08-05 19:12:30,673] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:12:30,687] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.600 seconds
+[2022-08-05 19:13:00,953] {processor.py:163} INFO - Started process (PID=15304) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:13:00,957] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:13:00,960] {logging_mixin.py:109} INFO - [2022-08-05 19:13:00,960] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:13:01,711] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:13:01,724] {logging_mixin.py:109} INFO - [2022-08-05 19:13:01,724] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:13:01,743] {logging_mixin.py:109} INFO - [2022-08-05 19:13:01,742] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:13:01,755] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.806 seconds
+[2022-08-05 19:13:31,919] {processor.py:163} INFO - Started process (PID=15328) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:13:31,924] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:13:31,928] {logging_mixin.py:109} INFO - [2022-08-05 19:13:31,927] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:13:32,666] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:13:32,684] {logging_mixin.py:109} INFO - [2022-08-05 19:13:32,683] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:13:32,702] {logging_mixin.py:109} INFO - [2022-08-05 19:13:32,702] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:13:32,715] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.840 seconds
+[2022-08-05 19:14:02,798] {processor.py:163} INFO - Started process (PID=15363) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:14:02,801] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:14:02,802] {logging_mixin.py:109} INFO - [2022-08-05 19:14:02,802] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:14:03,641] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:14:03,654] {logging_mixin.py:109} INFO - [2022-08-05 19:14:03,654] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:14:03,671] {logging_mixin.py:109} INFO - [2022-08-05 19:14:03,671] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:14:03,683] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.889 seconds
+[2022-08-05 19:14:33,943] {processor.py:163} INFO - Started process (PID=15388) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:14:33,949] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:14:33,960] {logging_mixin.py:109} INFO - [2022-08-05 19:14:33,960] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:14:34,921] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:14:34,945] {logging_mixin.py:109} INFO - [2022-08-05 19:14:34,944] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:14:35,076] {logging_mixin.py:109} INFO - [2022-08-05 19:14:35,075] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:14:35,117] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.181 seconds
+[2022-08-05 19:15:05,327] {processor.py:163} INFO - Started process (PID=15411) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:15:05,336] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:15:05,343] {logging_mixin.py:109} INFO - [2022-08-05 19:15:05,343] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:15:07,009] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:15:07,045] {logging_mixin.py:109} INFO - [2022-08-05 19:15:07,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:15:07,083] {logging_mixin.py:109} INFO - [2022-08-05 19:15:07,083] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:15:07,105] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.803 seconds
+[2022-08-05 19:15:37,555] {processor.py:163} INFO - Started process (PID=15436) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:15:37,557] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:15:37,563] {logging_mixin.py:109} INFO - [2022-08-05 19:15:37,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:15:39,068] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:15:39,096] {logging_mixin.py:109} INFO - [2022-08-05 19:15:39,095] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:15:39,133] {logging_mixin.py:109} INFO - [2022-08-05 19:15:39,133] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:15:39,156] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.605 seconds
+[2022-08-05 19:16:09,279] {processor.py:163} INFO - Started process (PID=15472) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:16:09,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:16:09,285] {logging_mixin.py:109} INFO - [2022-08-05 19:16:09,285] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:16:10,101] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:16:10,115] {logging_mixin.py:109} INFO - [2022-08-05 19:16:10,114] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:16:10,138] {logging_mixin.py:109} INFO - [2022-08-05 19:16:10,138] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:16:10,152] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.877 seconds
+[2022-08-05 19:16:40,356] {processor.py:163} INFO - Started process (PID=15497) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:16:40,362] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:16:40,364] {logging_mixin.py:109} INFO - [2022-08-05 19:16:40,364] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:16:41,159] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:16:41,173] {logging_mixin.py:109} INFO - [2022-08-05 19:16:41,172] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:16:41,193] {logging_mixin.py:109} INFO - [2022-08-05 19:16:41,193] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:16:41,206] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.858 seconds
+[2022-08-05 19:17:11,369] {processor.py:163} INFO - Started process (PID=15534) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:17:11,373] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:17:11,377] {logging_mixin.py:109} INFO - [2022-08-05 19:17:11,376] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:17:12,685] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:17:12,720] {logging_mixin.py:109} INFO - [2022-08-05 19:17:12,719] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:17:12,769] {logging_mixin.py:109} INFO - [2022-08-05 19:17:12,769] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:17:12,792] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.436 seconds
+[2022-08-05 19:17:42,918] {processor.py:163} INFO - Started process (PID=15560) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:17:42,921] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:17:42,923] {logging_mixin.py:109} INFO - [2022-08-05 19:17:42,923] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:17:43,782] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:17:43,800] {logging_mixin.py:109} INFO - [2022-08-05 19:17:43,800] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:17:43,823] {logging_mixin.py:109} INFO - [2022-08-05 19:17:43,823] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:17:43,838] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.925 seconds
+[2022-08-05 19:18:14,041] {processor.py:163} INFO - Started process (PID=15583) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:18:14,048] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:18:14,051] {logging_mixin.py:109} INFO - [2022-08-05 19:18:14,051] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:18:14,923] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:18:14,939] {logging_mixin.py:109} INFO - [2022-08-05 19:18:14,939] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:18:14,968] {logging_mixin.py:109} INFO - [2022-08-05 19:18:14,968] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:18:14,982] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.955 seconds
+[2022-08-05 19:18:45,136] {processor.py:163} INFO - Started process (PID=15617) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:18:45,169] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:18:45,178] {logging_mixin.py:109} INFO - [2022-08-05 19:18:45,177] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:18:46,487] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:18:46,503] {logging_mixin.py:109} INFO - [2022-08-05 19:18:46,502] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:18:46,523] {logging_mixin.py:109} INFO - [2022-08-05 19:18:46,523] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:18:46,537] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.415 seconds
+[2022-08-05 19:19:16,686] {processor.py:163} INFO - Started process (PID=15643) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:19:16,690] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:19:16,695] {logging_mixin.py:109} INFO - [2022-08-05 19:19:16,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:19:17,468] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:19:17,481] {logging_mixin.py:109} INFO - [2022-08-05 19:19:17,481] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:19:17,499] {logging_mixin.py:109} INFO - [2022-08-05 19:19:17,499] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:19:17,511] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.830 seconds
+[2022-08-05 19:19:47,609] {processor.py:163} INFO - Started process (PID=15669) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:19:47,611] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:19:47,613] {logging_mixin.py:109} INFO - [2022-08-05 19:19:47,613] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:19:48,557] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:19:48,572] {logging_mixin.py:109} INFO - [2022-08-05 19:19:48,571] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:19:48,593] {logging_mixin.py:109} INFO - [2022-08-05 19:19:48,593] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:19:48,611] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.006 seconds
+[2022-08-05 19:20:18,712] {processor.py:163} INFO - Started process (PID=15703) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:20:18,715] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:20:18,717] {logging_mixin.py:109} INFO - [2022-08-05 19:20:18,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:20:19,628] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:20:19,641] {logging_mixin.py:109} INFO - [2022-08-05 19:20:19,641] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:20:19,660] {logging_mixin.py:109} INFO - [2022-08-05 19:20:19,660] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:20:19,676] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.969 seconds
+[2022-08-05 19:20:49,853] {processor.py:163} INFO - Started process (PID=15728) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:20:49,855] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:20:49,857] {logging_mixin.py:109} INFO - [2022-08-05 19:20:49,856] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:20:50,919] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:20:50,937] {logging_mixin.py:109} INFO - [2022-08-05 19:20:50,937] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:20:50,963] {logging_mixin.py:109} INFO - [2022-08-05 19:20:50,963] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:20:50,979] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.130 seconds
+[2022-08-05 19:21:21,063] {processor.py:163} INFO - Started process (PID=15765) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:21:21,069] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:21:21,072] {logging_mixin.py:109} INFO - [2022-08-05 19:21:21,071] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:21:22,840] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:21:22,861] {logging_mixin.py:109} INFO - [2022-08-05 19:21:22,861] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:21:22,901] {logging_mixin.py:109} INFO - [2022-08-05 19:21:22,901] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:21:22,954] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.899 seconds
+[2022-08-05 19:21:53,132] {processor.py:163} INFO - Started process (PID=15793) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:21:53,137] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:21:53,140] {logging_mixin.py:109} INFO - [2022-08-05 19:21:53,139] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:21:54,009] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:21:54,023] {logging_mixin.py:109} INFO - [2022-08-05 19:21:54,023] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:21:54,044] {logging_mixin.py:109} INFO - [2022-08-05 19:21:54,044] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:21:54,057] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.947 seconds
+[2022-08-05 19:22:24,225] {processor.py:163} INFO - Started process (PID=15818) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:22:24,230] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:22:24,232] {logging_mixin.py:109} INFO - [2022-08-05 19:22:24,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:22:25,429] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:22:25,454] {logging_mixin.py:109} INFO - [2022-08-05 19:22:25,453] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:22:25,510] {logging_mixin.py:109} INFO - [2022-08-05 19:22:25,509] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:22:25,536] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.316 seconds
+[2022-08-05 19:22:55,719] {processor.py:163} INFO - Started process (PID=15852) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:22:55,723] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:22:55,726] {logging_mixin.py:109} INFO - [2022-08-05 19:22:55,725] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:22:56,521] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:22:56,535] {logging_mixin.py:109} INFO - [2022-08-05 19:22:56,535] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:22:56,557] {logging_mixin.py:109} INFO - [2022-08-05 19:22:56,557] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:22:56,577] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.866 seconds
+[2022-08-05 19:23:26,744] {processor.py:163} INFO - Started process (PID=15877) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:23:26,750] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:23:26,755] {logging_mixin.py:109} INFO - [2022-08-05 19:23:26,755] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:23:27,782] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:23:27,799] {logging_mixin.py:109} INFO - [2022-08-05 19:23:27,799] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:23:27,822] {logging_mixin.py:109} INFO - [2022-08-05 19:23:27,821] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:23:27,843] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.109 seconds
+[2022-08-05 19:23:57,889] {processor.py:163} INFO - Started process (PID=15903) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:23:57,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:23:57,894] {logging_mixin.py:109} INFO - [2022-08-05 19:23:57,894] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:23:58,651] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:23:58,663] {logging_mixin.py:109} INFO - [2022-08-05 19:23:58,663] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:23:58,681] {logging_mixin.py:109} INFO - [2022-08-05 19:23:58,681] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:23:58,694] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.810 seconds
+[2022-08-05 19:24:28,825] {processor.py:163} INFO - Started process (PID=15937) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:24:28,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:24:28,834] {logging_mixin.py:109} INFO - [2022-08-05 19:24:28,833] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:24:29,934] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:24:29,947] {logging_mixin.py:109} INFO - [2022-08-05 19:24:29,946] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:24:29,966] {logging_mixin.py:109} INFO - [2022-08-05 19:24:29,966] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:24:29,979] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.160 seconds
+[2022-08-05 19:25:00,169] {processor.py:163} INFO - Started process (PID=15961) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:25:00,173] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:25:00,174] {logging_mixin.py:109} INFO - [2022-08-05 19:25:00,174] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:25:01,142] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:25:01,163] {logging_mixin.py:109} INFO - [2022-08-05 19:25:01,163] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:25:01,188] {logging_mixin.py:109} INFO - [2022-08-05 19:25:01,188] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:25:01,197] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.034 seconds
+[2022-08-05 19:25:31,338] {processor.py:163} INFO - Started process (PID=15996) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:25:31,345] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:25:31,349] {logging_mixin.py:109} INFO - [2022-08-05 19:25:31,348] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:25:33,049] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:25:33,074] {logging_mixin.py:109} INFO - [2022-08-05 19:25:33,074] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:25:33,127] {logging_mixin.py:109} INFO - [2022-08-05 19:25:33,127] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:25:33,161] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.871 seconds
+[2022-08-05 19:26:03,350] {processor.py:163} INFO - Started process (PID=16021) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:26:03,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:26:03,356] {logging_mixin.py:109} INFO - [2022-08-05 19:26:03,356] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:26:04,185] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:26:04,200] {logging_mixin.py:109} INFO - [2022-08-05 19:26:04,200] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:26:04,219] {logging_mixin.py:109} INFO - [2022-08-05 19:26:04,219] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:26:04,233] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.891 seconds
+[2022-08-05 19:26:34,419] {processor.py:163} INFO - Started process (PID=16045) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:26:34,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:26:34,429] {logging_mixin.py:109} INFO - [2022-08-05 19:26:34,429] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:26:35,718] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:26:35,736] {logging_mixin.py:109} INFO - [2022-08-05 19:26:35,736] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:26:35,761] {logging_mixin.py:109} INFO - [2022-08-05 19:26:35,761] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:26:35,777] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.376 seconds
+[2022-08-05 19:27:05,895] {processor.py:163} INFO - Started process (PID=16071) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:27:05,900] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:27:05,902] {logging_mixin.py:109} INFO - [2022-08-05 19:27:05,902] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:27:06,852] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:27:06,875] {logging_mixin.py:109} INFO - [2022-08-05 19:27:06,874] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:27:06,912] {logging_mixin.py:109} INFO - [2022-08-05 19:27:06,911] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:27:06,928] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.042 seconds
+[2022-08-05 19:27:37,064] {processor.py:163} INFO - Started process (PID=16107) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:27:37,066] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:27:37,068] {logging_mixin.py:109} INFO - [2022-08-05 19:27:37,068] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:27:37,921] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:27:37,937] {logging_mixin.py:109} INFO - [2022-08-05 19:27:37,937] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:27:37,956] {logging_mixin.py:109} INFO - [2022-08-05 19:27:37,956] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:27:37,968] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.909 seconds
+[2022-08-05 19:28:08,085] {processor.py:163} INFO - Started process (PID=16130) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:28:08,099] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:28:08,106] {logging_mixin.py:109} INFO - [2022-08-05 19:28:08,105] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:28:09,402] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:28:09,419] {logging_mixin.py:109} INFO - [2022-08-05 19:28:09,419] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:28:09,444] {logging_mixin.py:109} INFO - [2022-08-05 19:28:09,444] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:28:09,459] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.378 seconds
+[2022-08-05 19:28:39,581] {processor.py:163} INFO - Started process (PID=16167) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:28:39,584] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:28:39,587] {logging_mixin.py:109} INFO - [2022-08-05 19:28:39,587] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:28:40,491] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:28:40,511] {logging_mixin.py:109} INFO - [2022-08-05 19:28:40,511] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:28:40,559] {logging_mixin.py:109} INFO - [2022-08-05 19:28:40,558] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:28:40,577] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.003 seconds
+[2022-08-05 19:29:10,727] {processor.py:163} INFO - Started process (PID=16193) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:29:10,730] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:29:10,732] {logging_mixin.py:109} INFO - [2022-08-05 19:29:10,731] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:29:11,642] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:29:11,655] {logging_mixin.py:109} INFO - [2022-08-05 19:29:11,655] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:29:11,673] {logging_mixin.py:109} INFO - [2022-08-05 19:29:11,673] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:29:11,687] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.964 seconds
+[2022-08-05 19:29:41,840] {processor.py:163} INFO - Started process (PID=16219) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:29:41,843] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:29:41,845] {logging_mixin.py:109} INFO - [2022-08-05 19:29:41,845] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:29:42,652] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:29:42,665] {logging_mixin.py:109} INFO - [2022-08-05 19:29:42,664] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:29:42,681] {logging_mixin.py:109} INFO - [2022-08-05 19:29:42,681] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:29:42,696] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.860 seconds
+[2022-08-05 19:30:12,870] {processor.py:163} INFO - Started process (PID=16255) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:30:12,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:30:12,880] {logging_mixin.py:109} INFO - [2022-08-05 19:30:12,880] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:30:14,814] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:30:14,841] {logging_mixin.py:109} INFO - [2022-08-05 19:30:14,840] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:30:14,895] {logging_mixin.py:109} INFO - [2022-08-05 19:30:14,895] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:30:14,913] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 2.054 seconds
+[2022-08-05 19:30:45,066] {processor.py:163} INFO - Started process (PID=16281) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:30:45,069] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:30:45,070] {logging_mixin.py:109} INFO - [2022-08-05 19:30:45,070] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:30:45,802] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:30:45,819] {logging_mixin.py:109} INFO - [2022-08-05 19:30:45,819] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:30:45,843] {logging_mixin.py:109} INFO - [2022-08-05 19:30:45,843] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:30:45,863] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.802 seconds
+[2022-08-05 19:31:15,997] {processor.py:163} INFO - Started process (PID=16305) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:31:16,002] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:31:16,004] {logging_mixin.py:109} INFO - [2022-08-05 19:31:16,004] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:31:16,928] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:31:16,951] {logging_mixin.py:109} INFO - [2022-08-05 19:31:16,951] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:31:16,980] {logging_mixin.py:109} INFO - [2022-08-05 19:31:16,980] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:31:17,002] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.009 seconds
+[2022-08-05 19:31:47,128] {processor.py:163} INFO - Started process (PID=16339) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:31:47,131] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:31:47,132] {logging_mixin.py:109} INFO - [2022-08-05 19:31:47,132] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:31:47,872] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:31:47,887] {logging_mixin.py:109} INFO - [2022-08-05 19:31:47,886] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:31:47,906] {logging_mixin.py:109} INFO - [2022-08-05 19:31:47,906] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:31:47,920] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.796 seconds
+[2022-08-05 19:32:18,068] {processor.py:163} INFO - Started process (PID=16366) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:32:18,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:32:18,079] {logging_mixin.py:109} INFO - [2022-08-05 19:32:18,079] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:32:18,903] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:32:18,917] {logging_mixin.py:109} INFO - [2022-08-05 19:32:18,917] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:32:18,942] {logging_mixin.py:109} INFO - [2022-08-05 19:32:18,942] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:32:18,961] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.900 seconds
+[2022-08-05 19:32:49,146] {processor.py:163} INFO - Started process (PID=16400) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:32:49,151] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:32:49,160] {logging_mixin.py:109} INFO - [2022-08-05 19:32:49,160] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:32:50,183] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:32:50,202] {logging_mixin.py:109} INFO - [2022-08-05 19:32:50,202] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:32:50,221] {logging_mixin.py:109} INFO - [2022-08-05 19:32:50,221] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:32:50,238] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.099 seconds
+[2022-08-05 19:33:20,378] {processor.py:163} INFO - Started process (PID=16425) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:33:20,383] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:33:20,386] {logging_mixin.py:109} INFO - [2022-08-05 19:33:20,385] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:33:21,227] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:33:21,241] {logging_mixin.py:109} INFO - [2022-08-05 19:33:21,241] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:33:21,261] {logging_mixin.py:109} INFO - [2022-08-05 19:33:21,261] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:33:21,277] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.904 seconds
+[2022-08-05 19:33:51,392] {processor.py:163} INFO - Started process (PID=16450) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:33:51,396] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:33:51,399] {logging_mixin.py:109} INFO - [2022-08-05 19:33:51,398] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:33:52,477] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:33:52,497] {logging_mixin.py:109} INFO - [2022-08-05 19:33:52,497] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:33:52,530] {logging_mixin.py:109} INFO - [2022-08-05 19:33:52,529] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:33:52,556] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.169 seconds
+[2022-08-05 19:34:22,686] {processor.py:163} INFO - Started process (PID=16483) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:34:22,688] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:34:22,690] {logging_mixin.py:109} INFO - [2022-08-05 19:34:22,689] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:34:23,427] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:34:23,440] {logging_mixin.py:109} INFO - [2022-08-05 19:34:23,440] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:34:23,463] {logging_mixin.py:109} INFO - [2022-08-05 19:34:23,462] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:34:23,475] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.794 seconds
+[2022-08-05 19:34:53,572] {processor.py:163} INFO - Started process (PID=16508) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:34:53,575] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:34:53,578] {logging_mixin.py:109} INFO - [2022-08-05 19:34:53,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:34:54,362] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:34:54,380] {logging_mixin.py:109} INFO - [2022-08-05 19:34:54,380] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:34:54,414] {logging_mixin.py:109} INFO - [2022-08-05 19:34:54,414] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:34:54,428] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.860 seconds
+[2022-08-05 19:35:24,575] {processor.py:163} INFO - Started process (PID=16533) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:35:24,581] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:35:24,584] {logging_mixin.py:109} INFO - [2022-08-05 19:35:24,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:35:25,842] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:35:25,855] {logging_mixin.py:109} INFO - [2022-08-05 19:35:25,855] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:35:25,880] {logging_mixin.py:109} INFO - [2022-08-05 19:35:25,880] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:35:25,893] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.324 seconds
+[2022-08-05 19:35:56,040] {processor.py:163} INFO - Started process (PID=16567) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:35:56,046] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:35:56,049] {logging_mixin.py:109} INFO - [2022-08-05 19:35:56,048] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:35:57,284] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:35:57,297] {logging_mixin.py:109} INFO - [2022-08-05 19:35:57,297] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:35:57,317] {logging_mixin.py:109} INFO - [2022-08-05 19:35:57,317] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:35:57,331] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.295 seconds
+[2022-08-05 19:36:27,497] {processor.py:163} INFO - Started process (PID=16592) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:36:27,501] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:36:27,502] {logging_mixin.py:109} INFO - [2022-08-05 19:36:27,502] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:36:28,214] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:36:28,228] {logging_mixin.py:109} INFO - [2022-08-05 19:36:28,227] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:36:28,247] {logging_mixin.py:109} INFO - [2022-08-05 19:36:28,246] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:36:28,262] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.769 seconds
+[2022-08-05 19:36:58,379] {processor.py:163} INFO - Started process (PID=16627) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:36:58,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:36:58,385] {logging_mixin.py:109} INFO - [2022-08-05 19:36:58,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:36:59,599] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:36:59,614] {logging_mixin.py:109} INFO - [2022-08-05 19:36:59,614] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:36:59,635] {logging_mixin.py:109} INFO - [2022-08-05 19:36:59,634] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:36:59,650] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.277 seconds
+[2022-08-05 19:37:29,782] {processor.py:163} INFO - Started process (PID=16654) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:37:29,785] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:37:29,787] {logging_mixin.py:109} INFO - [2022-08-05 19:37:29,787] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:37:30,488] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:37:30,500] {logging_mixin.py:109} INFO - [2022-08-05 19:37:30,500] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:37:30,521] {logging_mixin.py:109} INFO - [2022-08-05 19:37:30,521] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:37:30,534] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.756 seconds
+[2022-08-05 19:38:00,621] {processor.py:163} INFO - Started process (PID=16680) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:38:00,629] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:38:00,631] {logging_mixin.py:109} INFO - [2022-08-05 19:38:00,631] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:38:01,471] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:38:01,489] {logging_mixin.py:109} INFO - [2022-08-05 19:38:01,489] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:38:01,514] {logging_mixin.py:109} INFO - [2022-08-05 19:38:01,514] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:38:01,529] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.949 seconds
+[2022-08-05 19:38:31,696] {processor.py:163} INFO - Started process (PID=16714) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:38:31,698] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:38:31,699] {logging_mixin.py:109} INFO - [2022-08-05 19:38:31,699] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:38:32,428] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:38:32,443] {logging_mixin.py:109} INFO - [2022-08-05 19:38:32,442] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:38:32,464] {logging_mixin.py:109} INFO - [2022-08-05 19:38:32,463] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:38:32,478] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.786 seconds
+[2022-08-05 19:39:02,619] {processor.py:163} INFO - Started process (PID=16742) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:39:02,621] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:39:02,623] {logging_mixin.py:109} INFO - [2022-08-05 19:39:02,623] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:39:03,352] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:39:03,367] {logging_mixin.py:109} INFO - [2022-08-05 19:39:03,367] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:39:03,386] {logging_mixin.py:109} INFO - [2022-08-05 19:39:03,386] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:39:03,398] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.783 seconds
+[2022-08-05 19:39:33,501] {processor.py:163} INFO - Started process (PID=16777) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:39:33,504] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:39:33,507] {logging_mixin.py:109} INFO - [2022-08-05 19:39:33,507] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:39:34,259] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:39:34,271] {logging_mixin.py:109} INFO - [2022-08-05 19:39:34,271] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:39:34,292] {logging_mixin.py:109} INFO - [2022-08-05 19:39:34,292] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:39:34,304] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.806 seconds
+[2022-08-05 19:40:04,424] {processor.py:163} INFO - Started process (PID=16805) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:40:04,427] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:40:04,428] {logging_mixin.py:109} INFO - [2022-08-05 19:40:04,428] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:40:05,202] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:40:05,219] {logging_mixin.py:109} INFO - [2022-08-05 19:40:05,219] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:40:05,244] {logging_mixin.py:109} INFO - [2022-08-05 19:40:05,243] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:40:05,266] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.847 seconds
+[2022-08-05 19:40:35,359] {processor.py:163} INFO - Started process (PID=16840) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:40:35,361] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:40:35,362] {logging_mixin.py:109} INFO - [2022-08-05 19:40:35,362] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:40:36,103] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:40:36,116] {logging_mixin.py:109} INFO - [2022-08-05 19:40:36,116] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:40:36,152] {logging_mixin.py:109} INFO - [2022-08-05 19:40:36,152] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:40:36,167] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.813 seconds
+[2022-08-05 19:41:06,280] {processor.py:163} INFO - Started process (PID=16866) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:41:06,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:41:06,286] {logging_mixin.py:109} INFO - [2022-08-05 19:41:06,286] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:41:07,317] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:41:07,334] {logging_mixin.py:109} INFO - [2022-08-05 19:41:07,333] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:41:07,361] {logging_mixin.py:109} INFO - [2022-08-05 19:41:07,361] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:41:07,380] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.105 seconds
+[2022-08-05 19:41:37,525] {processor.py:163} INFO - Started process (PID=16903) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:41:37,539] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:41:37,544] {logging_mixin.py:109} INFO - [2022-08-05 19:41:37,544] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:41:38,643] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:41:38,656] {logging_mixin.py:109} INFO - [2022-08-05 19:41:38,655] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:41:38,676] {logging_mixin.py:109} INFO - [2022-08-05 19:41:38,676] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:41:38,688] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.171 seconds
+[2022-08-05 19:42:08,794] {processor.py:163} INFO - Started process (PID=16928) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:42:08,797] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:42:08,799] {logging_mixin.py:109} INFO - [2022-08-05 19:42:08,799] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:42:09,540] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:42:09,553] {logging_mixin.py:109} INFO - [2022-08-05 19:42:09,552] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:42:09,574] {logging_mixin.py:109} INFO - [2022-08-05 19:42:09,574] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:42:09,588] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.798 seconds
+[2022-08-05 19:42:39,859] {processor.py:163} INFO - Started process (PID=16954) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:42:39,863] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:42:39,866] {logging_mixin.py:109} INFO - [2022-08-05 19:42:39,866] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:42:40,768] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:42:40,782] {logging_mixin.py:109} INFO - [2022-08-05 19:42:40,782] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:42:40,801] {logging_mixin.py:109} INFO - [2022-08-05 19:42:40,801] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:42:40,813] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.967 seconds
+[2022-08-05 19:43:10,985] {processor.py:163} INFO - Started process (PID=16991) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:43:10,987] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:43:10,989] {logging_mixin.py:109} INFO - [2022-08-05 19:43:10,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:43:11,733] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:43:11,751] {logging_mixin.py:109} INFO - [2022-08-05 19:43:11,750] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:43:11,774] {logging_mixin.py:109} INFO - [2022-08-05 19:43:11,774] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:43:11,791] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.810 seconds
+[2022-08-05 19:43:41,936] {processor.py:163} INFO - Started process (PID=17015) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:43:41,938] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:43:41,939] {logging_mixin.py:109} INFO - [2022-08-05 19:43:41,939] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:43:42,693] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:43:42,708] {logging_mixin.py:109} INFO - [2022-08-05 19:43:42,707] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:43:42,726] {logging_mixin.py:109} INFO - [2022-08-05 19:43:42,725] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:43:42,737] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.809 seconds
+[2022-08-05 19:44:12,871] {processor.py:163} INFO - Started process (PID=17051) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:44:12,874] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:44:12,876] {logging_mixin.py:109} INFO - [2022-08-05 19:44:12,876] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:44:13,611] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:44:13,626] {logging_mixin.py:109} INFO - [2022-08-05 19:44:13,625] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:44:13,644] {logging_mixin.py:109} INFO - [2022-08-05 19:44:13,643] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:44:13,655] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.788 seconds
+[2022-08-05 19:44:43,762] {processor.py:163} INFO - Started process (PID=17078) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:44:43,764] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:44:43,766] {logging_mixin.py:109} INFO - [2022-08-05 19:44:43,766] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:44:44,485] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:44:44,498] {logging_mixin.py:109} INFO - [2022-08-05 19:44:44,497] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:44:44,516] {logging_mixin.py:109} INFO - [2022-08-05 19:44:44,516] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:44:44,542] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.784 seconds
+[2022-08-05 19:45:14,667] {processor.py:163} INFO - Started process (PID=17114) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:45:14,672] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:45:14,674] {logging_mixin.py:109} INFO - [2022-08-05 19:45:14,674] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:45:15,466] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:45:15,478] {logging_mixin.py:109} INFO - [2022-08-05 19:45:15,478] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:45:15,496] {logging_mixin.py:109} INFO - [2022-08-05 19:45:15,496] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:45:15,507] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.849 seconds
+[2022-08-05 19:45:45,620] {processor.py:163} INFO - Started process (PID=17143) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:45:45,623] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:45:45,626] {logging_mixin.py:109} INFO - [2022-08-05 19:45:45,626] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:45:46,339] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:45:46,352] {logging_mixin.py:109} INFO - [2022-08-05 19:45:46,352] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:45:46,369] {logging_mixin.py:109} INFO - [2022-08-05 19:45:46,369] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:45:46,382] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.767 seconds
+[2022-08-05 19:46:16,499] {processor.py:163} INFO - Started process (PID=17179) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:46:16,504] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:46:16,508] {logging_mixin.py:109} INFO - [2022-08-05 19:46:16,508] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:46:17,676] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:46:17,695] {logging_mixin.py:109} INFO - [2022-08-05 19:46:17,693] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:46:17,770] {logging_mixin.py:109} INFO - [2022-08-05 19:46:17,770] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:46:17,795] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.308 seconds
+[2022-08-05 19:46:47,931] {processor.py:163} INFO - Started process (PID=17206) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:46:47,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:46:47,936] {logging_mixin.py:109} INFO - [2022-08-05 19:46:47,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:46:48,647] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:46:48,660] {logging_mixin.py:109} INFO - [2022-08-05 19:46:48,659] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:46:48,677] {logging_mixin.py:109} INFO - [2022-08-05 19:46:48,677] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:46:48,691] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.766 seconds
+[2022-08-05 19:47:18,825] {processor.py:163} INFO - Started process (PID=17230) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:47:18,829] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:47:18,830] {logging_mixin.py:109} INFO - [2022-08-05 19:47:18,830] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:47:19,584] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:47:19,599] {logging_mixin.py:109} INFO - [2022-08-05 19:47:19,598] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:47:19,619] {logging_mixin.py:109} INFO - [2022-08-05 19:47:19,618] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:47:19,632] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.812 seconds
+[2022-08-05 19:47:49,739] {processor.py:163} INFO - Started process (PID=17264) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:47:49,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:47:49,746] {logging_mixin.py:109} INFO - [2022-08-05 19:47:49,746] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:47:50,475] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:47:50,489] {logging_mixin.py:109} INFO - [2022-08-05 19:47:50,488] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:47:50,519] {logging_mixin.py:109} INFO - [2022-08-05 19:47:50,519] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:47:50,529] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.794 seconds
+[2022-08-05 19:48:20,683] {processor.py:163} INFO - Started process (PID=17289) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:48:20,689] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:48:20,691] {logging_mixin.py:109} INFO - [2022-08-05 19:48:20,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:48:21,421] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:48:21,435] {logging_mixin.py:109} INFO - [2022-08-05 19:48:21,435] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:48:21,453] {logging_mixin.py:109} INFO - [2022-08-05 19:48:21,453] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:48:21,464] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.785 seconds
+[2022-08-05 19:48:51,559] {processor.py:163} INFO - Started process (PID=17324) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:48:51,562] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:48:51,564] {logging_mixin.py:109} INFO - [2022-08-05 19:48:51,564] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:48:52,365] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:48:52,381] {logging_mixin.py:109} INFO - [2022-08-05 19:48:52,381] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:48:52,401] {logging_mixin.py:109} INFO - [2022-08-05 19:48:52,401] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:48:52,412] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.860 seconds
+[2022-08-05 19:49:22,477] {processor.py:163} INFO - Started process (PID=17350) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:49:22,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:49:22,482] {logging_mixin.py:109} INFO - [2022-08-05 19:49:22,482] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:49:23,247] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:49:23,261] {logging_mixin.py:109} INFO - [2022-08-05 19:49:23,261] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:49:23,280] {logging_mixin.py:109} INFO - [2022-08-05 19:49:23,280] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:49:23,293] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.821 seconds
+[2022-08-05 19:49:53,947] {processor.py:163} INFO - Started process (PID=17385) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:49:53,951] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:49:53,953] {logging_mixin.py:109} INFO - [2022-08-05 19:49:53,953] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:49:54,848] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:49:54,863] {logging_mixin.py:109} INFO - [2022-08-05 19:49:54,863] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:49:54,882] {logging_mixin.py:109} INFO - [2022-08-05 19:49:54,882] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:49:54,895] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.957 seconds
+[2022-08-05 19:50:25,053] {processor.py:163} INFO - Started process (PID=17412) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:50:25,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:50:25,058] {logging_mixin.py:109} INFO - [2022-08-05 19:50:25,057] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:50:25,913] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:50:25,930] {logging_mixin.py:109} INFO - [2022-08-05 19:50:25,930] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:50:25,958] {logging_mixin.py:109} INFO - [2022-08-05 19:50:25,958] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:50:25,976] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.928 seconds
+[2022-08-05 19:50:56,183] {processor.py:163} INFO - Started process (PID=17449) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:50:56,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:50:56,191] {logging_mixin.py:109} INFO - [2022-08-05 19:50:56,191] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:50:57,243] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:50:57,261] {logging_mixin.py:109} INFO - [2022-08-05 19:50:57,260] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:50:57,284] {logging_mixin.py:109} INFO - [2022-08-05 19:50:57,284] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:50:57,306] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.131 seconds
+[2022-08-05 19:51:27,437] {processor.py:163} INFO - Started process (PID=17477) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:51:27,439] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:51:27,441] {logging_mixin.py:109} INFO - [2022-08-05 19:51:27,440] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:51:28,167] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:51:28,181] {logging_mixin.py:109} INFO - [2022-08-05 19:51:28,181] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:51:28,199] {logging_mixin.py:109} INFO - [2022-08-05 19:51:28,199] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:51:28,213] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.780 seconds
+[2022-08-05 19:51:58,347] {processor.py:163} INFO - Started process (PID=17502) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:51:58,349] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:51:58,351] {logging_mixin.py:109} INFO - [2022-08-05 19:51:58,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:51:59,142] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:51:59,156] {logging_mixin.py:109} INFO - [2022-08-05 19:51:59,155] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:51:59,174] {logging_mixin.py:109} INFO - [2022-08-05 19:51:59,174] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:51:59,185] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.842 seconds
+[2022-08-05 19:52:29,355] {processor.py:163} INFO - Started process (PID=17526) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:52:29,359] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:52:29,361] {logging_mixin.py:109} INFO - [2022-08-05 19:52:29,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:52:30,810] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:52:30,833] {logging_mixin.py:109} INFO - [2022-08-05 19:52:30,832] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:52:30,856] {logging_mixin.py:109} INFO - [2022-08-05 19:52:30,856] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:52:30,874] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.563 seconds
+[2022-08-05 19:53:01,286] {processor.py:163} INFO - Started process (PID=17561) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:53:01,317] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:53:01,323] {logging_mixin.py:109} INFO - [2022-08-05 19:53:01,322] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:53:02,825] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:53:02,846] {logging_mixin.py:109} INFO - [2022-08-05 19:53:02,846] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:53:02,876] {logging_mixin.py:109} INFO - [2022-08-05 19:53:02,875] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:53:02,908] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.665 seconds
+[2022-08-05 19:53:33,070] {processor.py:163} INFO - Started process (PID=17587) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:53:33,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:53:33,077] {logging_mixin.py:109} INFO - [2022-08-05 19:53:33,077] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:53:33,931] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:53:33,946] {logging_mixin.py:109} INFO - [2022-08-05 19:53:33,946] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:53:33,969] {logging_mixin.py:109} INFO - [2022-08-05 19:53:33,969] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:53:33,986] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.934 seconds
+[2022-08-05 19:54:04,114] {processor.py:163} INFO - Started process (PID=17611) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:54:04,118] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:54:04,119] {logging_mixin.py:109} INFO - [2022-08-05 19:54:04,119] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:54:05,497] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:54:05,521] {logging_mixin.py:109} INFO - [2022-08-05 19:54:05,520] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:54:05,588] {logging_mixin.py:109} INFO - [2022-08-05 19:54:05,588] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:54:05,604] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.497 seconds
+[2022-08-05 19:54:35,786] {processor.py:163} INFO - Started process (PID=17646) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:54:35,792] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:54:35,796] {logging_mixin.py:109} INFO - [2022-08-05 19:54:35,796] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:54:37,697] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:54:37,712] {logging_mixin.py:109} INFO - [2022-08-05 19:54:37,712] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:54:37,733] {logging_mixin.py:109} INFO - [2022-08-05 19:54:37,733] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:54:37,747] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.969 seconds
+[2022-08-05 19:55:07,927] {processor.py:163} INFO - Started process (PID=17670) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:55:07,933] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:55:07,936] {logging_mixin.py:109} INFO - [2022-08-05 19:55:07,936] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:55:08,891] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:55:08,920] {logging_mixin.py:109} INFO - [2022-08-05 19:55:08,919] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:55:08,950] {logging_mixin.py:109} INFO - [2022-08-05 19:55:08,950] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:55:08,973] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.059 seconds
+[2022-08-05 19:55:39,055] {processor.py:163} INFO - Started process (PID=17694) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:55:39,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:55:39,065] {logging_mixin.py:109} INFO - [2022-08-05 19:55:39,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:55:40,023] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:55:40,050] {logging_mixin.py:109} INFO - [2022-08-05 19:55:40,048] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:55:40,086] {logging_mixin.py:109} INFO - [2022-08-05 19:55:40,086] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:55:40,111] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.062 seconds
+[2022-08-05 19:56:10,229] {processor.py:163} INFO - Started process (PID=17729) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:56:10,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:56:10,238] {logging_mixin.py:109} INFO - [2022-08-05 19:56:10,237] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:56:11,759] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:56:11,775] {logging_mixin.py:109} INFO - [2022-08-05 19:56:11,774] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:56:11,804] {logging_mixin.py:109} INFO - [2022-08-05 19:56:11,803] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:56:11,819] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.597 seconds
+[2022-08-05 19:56:42,005] {processor.py:163} INFO - Started process (PID=17755) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:56:42,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:56:42,019] {logging_mixin.py:109} INFO - [2022-08-05 19:56:42,019] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:56:43,390] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:56:43,421] {logging_mixin.py:109} INFO - [2022-08-05 19:56:43,421] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:56:43,453] {logging_mixin.py:109} INFO - [2022-08-05 19:56:43,453] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:56:43,469] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.478 seconds
+[2022-08-05 19:57:13,547] {processor.py:163} INFO - Started process (PID=17780) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:57:13,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:57:13,552] {logging_mixin.py:109} INFO - [2022-08-05 19:57:13,552] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:57:14,682] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:57:14,701] {logging_mixin.py:109} INFO - [2022-08-05 19:57:14,701] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:57:14,723] {logging_mixin.py:109} INFO - [2022-08-05 19:57:14,722] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:57:14,737] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.198 seconds
+[2022-08-05 19:57:44,962] {processor.py:163} INFO - Started process (PID=17803) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:57:44,966] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:57:44,970] {logging_mixin.py:109} INFO - [2022-08-05 19:57:44,969] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:57:46,925] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:57:46,947] {logging_mixin.py:109} INFO - [2022-08-05 19:57:46,947] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:57:46,979] {logging_mixin.py:109} INFO - [2022-08-05 19:57:46,979] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:57:46,995] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 2.039 seconds
+[2022-08-05 19:58:17,179] {processor.py:163} INFO - Started process (PID=17827) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:58:17,182] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:58:17,184] {logging_mixin.py:109} INFO - [2022-08-05 19:58:17,184] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:58:18,026] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:58:18,040] {logging_mixin.py:109} INFO - [2022-08-05 19:58:18,039] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:58:18,059] {logging_mixin.py:109} INFO - [2022-08-05 19:58:18,059] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:58:18,072] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.899 seconds
+[2022-08-05 19:58:48,534] {processor.py:163} INFO - Started process (PID=17859) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:58:48,540] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:58:48,545] {logging_mixin.py:109} INFO - [2022-08-05 19:58:48,544] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:58:50,239] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:58:50,259] {logging_mixin.py:109} INFO - [2022-08-05 19:58:50,259] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:58:50,289] {logging_mixin.py:109} INFO - [2022-08-05 19:58:50,289] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:58:50,308] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.798 seconds
+[2022-08-05 19:59:20,569] {processor.py:163} INFO - Started process (PID=17886) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:59:20,575] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:59:20,578] {logging_mixin.py:109} INFO - [2022-08-05 19:59:20,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:59:21,564] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:59:21,580] {logging_mixin.py:109} INFO - [2022-08-05 19:59:21,580] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:59:21,612] {logging_mixin.py:109} INFO - [2022-08-05 19:59:21,612] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:59:21,633] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.087 seconds
+[2022-08-05 19:59:51,820] {processor.py:163} INFO - Started process (PID=17913) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:59:51,822] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 19:59:51,826] {logging_mixin.py:109} INFO - [2022-08-05 19:59:51,825] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:59:52,740] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 19:59:52,757] {logging_mixin.py:109} INFO - [2022-08-05 19:59:52,757] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 19:59:52,803] {logging_mixin.py:109} INFO - [2022-08-05 19:59:52,803] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 19:59:52,823] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 1.009 seconds
+[2022-08-05 20:00:22,917] {processor.py:163} INFO - Started process (PID=17941) to work on /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 20:00:22,920] {processor.py:642} INFO - Processing file /opt/airflow/dags/gcs_to_bq.py for tasks to queue
+[2022-08-05 20:00:22,922] {logging_mixin.py:109} INFO - [2022-08-05 20:00:22,922] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 20:00:23,738] {processor.py:654} INFO - DAG(s) dict_keys(['move_gcs_trip_data_to_bq_workflow2']) retrieved from /opt/airflow/dags/gcs_to_bq.py
+[2022-08-05 20:00:23,762] {logging_mixin.py:109} INFO - [2022-08-05 20:00:23,762] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-08-05 20:00:23,794] {logging_mixin.py:109} INFO - [2022-08-05 20:00:23,794] {dag.py:2935} INFO - Setting next_dagrun for move_gcs_trip_data_to_bq_workflow2 to 2022-08-05T00:00:00+00:00
+[2022-08-05 20:00:23,811] {processor.py:171} INFO - Processing /opt/airflow/dags/gcs_to_bq.py took 0.900 seconds
